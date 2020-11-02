@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Online Timer & Stop Watch - BSH</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="nightDayMode.js"></script>
+    <script src="timer.js"></script>
+    <script src="stopWatch.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Do+Hyeon&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cute+Font&display=swap">
+  </head>
+  <body>
+    <h1>초읽기<span class="eng"> (Timer)</span></h1>
+    <p>
+      <input class="timer" id="t_hour" type="number" value="00" placeholder="00" min="00" max="99"> :
+      <input class="timer" id="t_minute" type="number" value="00" placeholder="00" min="00" max="59"> :
+      <input class="timer" id="t_second" type="number" value="00" placeholder="00" min="00" max="59">
+      <input class="timer" id="t_button" type="button" value="시작">
+      <input class="timer" id="t_reset" type="button" value="초기화">
+    </p>
+    <h1>초시계<span class="eng"> (Stopwatch)</span></h1>
+    <p style="margin-bottom: 15px;">
+      <input class="stopWatch" id="s_hour" type="number" value="00" placeholder="00" min="00" max="99"> :
+      <input class="stopWatch" id="s_minute" type="number" value="00" placeholder="00" min="00" max="59"> :
+      <input class="stopWatch" id="s_second" type="number" value="00" placeholder="00" min="00" max="59">
+      <input class="stopWatch" id="s_button" type="button" value="시작">
+      <input class="stopWatch" id="s_record" type="button" value="기록">
+      <input class="stopWatch" id="s_reset" type="button" value="초기화">
+    </p>
+    <div id="recordBox"></div>
+    <p id="important">
+      *알람 정지 시 초기화 버튼을 누르세요.<br>
+      *초시계 기록 시 처음에 기록 버튼을 한 번 누르고 두 번쩨 누를 때부터 기록됨니다.<br>
+      *초시계 기록을 숨긴 뒤 다시 보이게 하려면 기록 버튼을 누르세요.
+    </p>
+    <div class="bottom">
+      <div class="nightDayMode"><input id="nightDayModeButton" type="button" value="화면 - 밤"></div>
+      <div class="name">- BSH</div>
+    </div>
+  </body>
+</html>

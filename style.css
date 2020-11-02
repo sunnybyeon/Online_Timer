@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 30.15px;
+  font-weight: 400;
+  font-family: 'Do Hyeon', sans-serif;
+}
+input:focus, button:focus {
+  outline: 0px;
+}
+p {
+  margin-top: 5px;
+  font-size: 40px;
+}
+h1 {
+  margin-bottom: 0px;
+  font-size: 45px;
+  font-weight: 500;
+  font-family: 'Black Han Sans', sans-serif;
+  color: #5f7d46;
+}
+.eng {
+  font-size: 30px;
+}
+.timer , .stopWatch {
+  width: 100px;
+  border-radius: 10px;
+  border: 1px #808080 solid;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Cute Font', cursive;
+  text-align: center;
+  vertical-align: middle;
+}
+#t_button , #t_reset , #s_button , #s_record , #s_reset {
+  width: auto;
+  min-height: 54px;
+  padding: 4px 10px 2px;
+  border: 1.3px #dfcf7b solid;
+  border-radius: 5px;
+  background-color: #ffed91;
+  font-size: 36px;
+  font-weight: 300;
+  font-family: 'Do Hyeon', sans-serif;
+}
+#t_button:active , #t_reset:active , #s_button:active , #s_record:active , #s_reset:active {
+  background-color: #dfcf7b;
+}
+h2 {
+  font-weight: 500;
+  margin: 0px;
+  display: inline;
+}
+#record_t {
+  padding: 13px 0px 0px 18px;
+}
+#l_delete, #r_hide {
+  margin: 0px 0px 0px 10px;
+  font-family: 'Do Hyeon', sans-serif;
+  border: 1.3px #a2af58 solid;
+  border-radius: 2px;
+  background-color: #bbc966;
+  font-size: 15px;
+  font-weight: 100;
+  vertical-align: middle;
+  position: relative;
+  top: -4px;
+}
+#l_delete:active, #r_hide:active {
+  background-color: #a2af58;
+}
+#r_hide_span {
+  position: absolute;
+  right: 5px;
+  bottom: 2px;
+}
+ol {
+  margin: 5px 0px 16px 0px;
+  line-height: 110%;
+}
+#recordBox {
+  border: 1px groove;
+  position: relative;
+}
+li {
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 19px;
+  font-weight: 100;
+  color: #717171;
+}
+.record {
+  font-family: 'Cute Font', cursive;
+  font-size: 30px;
+  font-weight: 100;
+  color: #282828;
+}
+#important {
+  font-size: 25px;
+  font-weight: 200;
+  color: #ff4747;
+  margin: 20px 0px 20px 0px;
+}
+.bottom {
+  position: fixed;
+  bottom: 12px;
+  right: 23.45px;
+}
+.nightDayMode {
+  text-align: right;
+  padding: 0px;
+}
+#nightDayModeButton {
+  padding: 1px 7px 2px;
+  border: 0px;
+  border-radius: 7px;
+  background-color: #2e3131;
+  color: #e8e8e8;
+  font-size: 17px;
+  font-weight: 100;
+  font-family: 'Do Hyeon', sans-serif;
+}
+.name {
+  font-size: 15px;
+  font-weight: 100;
+  text-align: right;
+  padding: 0px 0px 5px 0px;
+}
